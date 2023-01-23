@@ -1,0 +1,25 @@
+@import "../../styles/_variables.scss";
+
+.chat {
+  flex: 2;
+}
+
+.chatInfo {
+  height: 50px;
+  background-color: $color-primary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.chatIcons {
+  display: flex;
+  gap: 10px;
+
+  img {
+    height: 24px;
+    cursor: pointer;
+  }
+}

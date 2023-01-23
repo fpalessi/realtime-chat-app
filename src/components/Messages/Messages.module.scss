@@ -1,0 +1,8 @@
+@import "../../styles/_variables.scss";
+
+.messages {
+  background-color: $color-secondary-bg;
+  padding: 10px;
+  height: calc(100% - 160px);
+  overflow: scroll;
+}

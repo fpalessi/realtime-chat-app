@@ -1,0 +1,7 @@
+@import "../../styles/_variables.scss";
+
+.sidebar {
+  flex: 0.8;
+  background-color: $color-primary;
+  position: relative;
+}

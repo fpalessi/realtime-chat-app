@@ -1,0 +1,48 @@
+@import "../../styles/_variables.scss";
+
+.input {
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+
+    &::placeholder {
+      color: lightgray;
+    }
+  }
+}
+
+.send {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  img {
+    height: 24px;
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 10px 15px;
+    color: white;
+    background-color: $color-primary;
+    cursor: pointer;
+    &:hover {
+      background-color: $color-primary-bg;
+    }
+  }
+}
